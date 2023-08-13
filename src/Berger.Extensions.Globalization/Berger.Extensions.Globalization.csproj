@@ -1,7 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFramework>net7.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>disable</Nullable>
 	</PropertyGroup>
+	<ItemGroup>
+		<Folder Include="Configurations\" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Berger.Extensions.Entities" Version="1.0.0.6" />
+		<PackageReference Include="Berger.Extensions.Pagination" Version="1.0.0.12" />
+	</ItemGroup>
 </Project>
