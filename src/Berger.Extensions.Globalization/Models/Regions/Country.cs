@@ -1,9 +1,9 @@
-﻿using Berger.Extensions.Entities;
+﻿using Berger.Extensions.Base;
 using Berger.Extensions.Pagination;
 
 namespace Berger.Extensions.Globalization
 {
-    public class Country : IContinent, ICurrency, IActive, ISortable, IGeolocation, ISlug
+    public class Country : IContinent, ICurrency, IActive, ISortable, IGeolocation
     {
         #region Properties
         public Guid ContinentID { get; set; }

@@ -1,9 +1,9 @@
-﻿using Berger.Extensions.Entities;
+﻿using Berger.Extensions.Base;
 using Berger.Extensions.Pagination;
 
 namespace Berger.Extensions.Globalization
 {
-    public class Currency : IName, ICode, ISortable, ISlug
+    public class Currency : ICode, ISortable
     {
         #region Properties
         public string Name { get; set; } = string.Empty;
