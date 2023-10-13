@@ -9,11 +9,11 @@
 		<UseProjectReference>true</UseProjectReference>
 	</PropertyGroup>
 
-	<ItemGroup Condition="'$(UseProjectReference)' == 'true'">
+	<ItemGroup Condition="'$(Configuration)' == 'Debug'">
 		<ProjectReference Include="..\..\..\Berger.Extensions.System\src\Berger.Extensions.System\Berger.Extensions.System.csproj" />
 	</ItemGroup>
 
-	<ItemGroup Condition="'$(UseProjectReference)' != 'true'">
+	<ItemGroup Condition="'$(Configuration)' == 'Release'">
 		<PackageReference Include="Berger.Extensions.System" Version="*" />
 	</ItemGroup>
 </Project>
