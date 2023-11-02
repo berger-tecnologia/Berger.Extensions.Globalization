@@ -1,8 +1,6 @@
-﻿using Berger.Extensions.System;
-
-namespace Berger.Extensions.Globalization
+﻿namespace Berger.Extensions.Globalization
 {
-    public class Currency : ICode
+    public class Currency
     {
         #region Properties
         public string Name { get; set; } = string.Empty;
